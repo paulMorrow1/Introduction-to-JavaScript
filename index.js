@@ -36,7 +36,16 @@ Do the following:
    HINT: no function required
 */
 
-
+const num1 = 10;
+const num2 = 5;
+if (num2 < num1){
+  return num1++;
+} else if(num2 > num1){
+  return num1--;
+} else {
+  console.log('Tie!')
+}
+ console.log(num1);
 
 
 
