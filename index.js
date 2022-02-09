@@ -292,7 +292,7 @@ function grade(score){
   } else if (score < 60){
     return 'you got an F';
   }
-}
+} 
 
 
 
